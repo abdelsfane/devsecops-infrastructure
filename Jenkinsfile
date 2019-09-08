@@ -13,7 +13,7 @@ node {
   NEXPOSE_ENDPOINT = "18.222.122.198"
   EXCEPTIONS_LIST_URL = "https://gist.github.com/abdelsfane/9dab45201be6f8e7a942a27ac48ffaf1"
   ASSET_IP = "3.17.145.188"
-  SITE_NAME = "Nexpose Runner ${BUILD_NUMBER}"
+  SITE_NAME = "Nexpose_Runner_${BUILD_NUMBER}"
 
 
 // ------------------------------- Use Jenkins Credential Store ------------------------------------------------
@@ -38,7 +38,7 @@ node {
 
     stage("Run Nexpose Scan") {
       sh '''
-        scan --connection ${NEXPOSE_ENDPOINT} --exceptions_list_url ${EXCEPTIONS_LIST_URL} --username ${USERNAME} --password ${PASSWORD} --port 3780 --site-name ${SITE_NAME} --ip-addresses ${ASSET_IP} --scan-template full-audit
+        scan --connection ${NEXPOSE_ENDPOINT} --username ${USERNAME} --password ${PASSWORD} --port 3780 --site-name ${SITE_NAME} --ip-addresses ${ASSET_IP} --scan-template full-audit
         '''
     }
       stage("Cleaning Worksapce") {
