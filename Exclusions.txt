@@ -1,0 +1,11 @@
+User umask value is unsafe
+ICMP timestamp response
+User home directory mode unsafe
+Partition Mounting Weakness
+World writable files exist
+ICMP redirection enabled
+HTTP OPTIONS Method Enabled
+Files or directories with no real owner or group
+No password for Grub
+HTTP DELETE Method Enabled
+Anonymous root login is allowed
