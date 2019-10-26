@@ -9,3 +9,7 @@ Files or directories with no real owner or group
 No password for Grub
 HTTP DELETE Method Enabled
 Anonymous root login is allowed
+Ubuntu: (Multiple Advisories) (CVE-2019-16056): Python vulnerabilities
+Ubuntu: (Multiple Advisories) (CVE-2019-16935): Python vulnerabilities
+Ubuntu: (Multiple Advisories) (CVE-2019-5094): e2fsprogs vulnerability
+Ubuntu: USN-4154-1 (CVE-2019-14287): Sudo vulnerability
